@@ -1,3 +1,4 @@
+
 (function($) {
 
 	var	$window = $(window),
@@ -81,10 +82,14 @@
 	};
 
 	// Play initial animations on page load.
+	$(document).ready(function() {
+		$("#my_audio").get(0).play();
+	});
 		$window.on('load', function() {
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
 			}, 100);
+
 		});
 
 	// Clear transitioning state on unload/hide.
@@ -320,5 +325,6 @@
 						$menu._hide();
 
 			});
+			
 
 })(jQuery);
