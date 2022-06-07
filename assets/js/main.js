@@ -81,10 +81,7 @@
 
 	};
 
-	// Play initial animations on page load.
-	$(document).ready(function() {
-		$("#my_audio").get(0).play();
-	});
+	// Play initial animations on page load
 		$window.on('load', function() {
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
