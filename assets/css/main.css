@@ -6,7 +6,7 @@
 
 #logos {
 	display: inline-block;
-	margin: 15px; /* margin: 20px was off */
+	margin-right: 15px; /* margin: 20px was off */
 	left: 0;
 	top: 0;
 	height: 60px;
@@ -3369,7 +3369,7 @@ input, select, textarea {
 		cursor: default;
 		font-weight: 600;
 		height: 3.25em;
-		left: 0;
+		/* left: 0px; */
 		letter-spacing: 0.25em;
 		line-height: 3.25em;
 		margin: 0;
@@ -3377,6 +3377,7 @@ input, select, textarea {
 		text-transform: uppercase;
 		top: 0;
 		width: 100%;
+		float: right;
 		z-index: 10000;
 	}
 
