@@ -3,6 +3,16 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 @import url(https://fonts.googleapis.com/css?family=Oswald);
 @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
+#logos {
+	display: inline-block;
+	margin: 15px; /* margin: 20px was off */
+	left: 0;
+	top: 0;
+	height: 60px;
+	width: auto; /* correct proportions to specified height */
+	border-radius: 50%;
+}
 footer{
 	bottom: 0;
 }
