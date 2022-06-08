@@ -9,7 +9,7 @@
 	margin-right: 15px; /* margin: 20px was off */
 	left: 0;
 	top: 0;
-	height: 2.65em;
+	height: 3.25em;
 	width: auto; /* correct proportions to specified height */
 	border-radius: 50%;
 	outline: none;
@@ -3569,6 +3569,9 @@ input, select, textarea {
 			#header {
 				height: 2.75em;
 				line-height: 2.75em;
+			}
+			#header a[href="index.html"]{
+              height: 2.75em;
 			}
 
 				#header .logo {
