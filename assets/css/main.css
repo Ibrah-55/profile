@@ -9,9 +9,10 @@
 	margin-right: 15px; /* margin: 20px was off */
 	left: 0;
 	top: 0;
-	height: 60px;
+	height: 2.65em;
 	width: auto; /* correct proportions to specified height */
 	border-radius: 50%;
+	outline: none;
 }
 footer{
 	bottom: 0;
@@ -260,10 +261,12 @@ footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
+	outline: 0;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+ }
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -361,7 +364,6 @@ input, select, textarea {
 			transition: none !important;
 		}
 
-/* Type */
 
 	body, input, select, textarea {
 		color:whitesmoke;
@@ -3379,6 +3381,7 @@ input, select, textarea {
 		width: 100%;
 		float: right;
 		z-index: 10000;
+		
 	}
 
 		#header .logo {
