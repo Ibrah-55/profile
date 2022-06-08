@@ -9,7 +9,7 @@
 	margin-right: 15px; /* margin: 20px was off */
 	left: 0;
 	top: 0;
-	height: 3.25em;
+	height: 2.65em;
 	width: auto; /* correct proportions to specified height */
 	border-radius: 50%;
 	outline: none;
@@ -3541,10 +3541,16 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 1680px) {
+			#header a[href="index.html"]{
+				height: 3.25em;
+			  }
 
 			#header nav a[href="#menu"] {
 				padding-right: 3.75em !important;
 			}
+			#header a[href="index.html"]{
+				height: 3.25em;
+			  }
 
 				#header nav a[href="#menu"]:last-child {
 					padding-right: 4.25em !important;
@@ -3569,9 +3575,6 @@ input, select, textarea {
 			#header {
 				height: 2.75em;
 				line-height: 2.75em;
-			}
-			#header a[href="index.html"]{
-              height: 2.75em;
 			}
 
 				#header .logo {
